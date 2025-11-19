@@ -1,18 +1,14 @@
-import './globals.css';
+import './globals.css'
 
 export const metadata = {
   title: 'LedgerNova',
   description: 'Your portal to next-generation finance & tech insights',
-};
+}
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gray-900 text-white">{children}</body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
